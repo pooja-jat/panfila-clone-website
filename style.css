@@ -1,0 +1,441 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.main-container {
+  height: auto;
+  width: 100%;
+  background-color: rgb(0, 39, 10);
+}
+
+.navbar {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  position: sticky;
+ padding-block: 5px;
+/* background-color: green; */
+}
+
+.logo {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 50%;
+}
+.nav {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.nav ul li {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.nav ul li:first-child {
+  color: rgb(236, 195, 50);
+}
+
+.content-box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.content p {
+  color: orange;
+  font-weight: 700;
+  font-size: 18px;
+ 
+}
+
+.content h1 {
+  font-size: 60px;
+  color: white;
+  font-weight: 700;
+  margin-block: 12px;
+}
+
+.content h1 em:first-child {
+  color: green;
+  font-style: normal;
+}
+
+.content h1 em:last-child {
+  color: orange;
+  font-style: normal;
+}
+
+.content a {
+  color: orange;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.content button {
+  width: 24%;
+  padding: 10px 18px;
+  border-radius: 18px;
+  border: none;
+  background-color: rgb(27, 217, 27);
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 30px;
+}
+
+.content h6 {
+  margin: 10px;
+  color: green;
+  font-size: 22px;
+}
+
+.content h2 {
+  color: orange;
+  font-size: 40px;
+  margin-block: 12px;
+}
+.content span {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card {
+  position: fixed;
+  right: 0px;
+  top: 180px;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
+  padding-block: 40px;
+  gap: 20px;
+}
+
+.card-box1 {
+  border-radius: 16px;
+  width: 400px;
+  /* height: auto; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-block: 20px;
+  background-color: rgb(18, 70, 18);
+}
+
+.card-box1 img {
+  width: 80%;
+  border-radius: 24px;
+  border: 1px solid orange;
+}
+
+.card-box1 h4 {
+  color: orange;
+  font-size: 28px;
+  padding-block: 10px;
+  text-align: center;
+}
+
+.card-box1 p {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.card-box1:nth-child(2) img {
+  border: 1px solid red;
+}
+
+.card-box1:nth-child(3) img {
+  border: 1px solid yellow;
+}
+
+.card-box1:last-child img {
+  border: 1px solid green;
+}
+
+.middle-card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-block: 40px;
+  gap: 20px;
+}
+
+.middle-1 {
+  width: 700px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-block: 20px;
+  background-color: rgb(18, 70, 18);
+}
+
+.middle-1 img {
+  width: 90%;
+  border-radius: 24px;
+  border: 1px solid orange;
+}
+
+.middle-1 h4 {
+  color: orange;
+  font-size: 32px;
+  padding-block: 10px;
+  text-align: center;
+}
+
+.middle-1 p {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+
+.last-card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-block: 20px;
+  gap: 20px;
+}
+
+.last-1 {
+  width: 800px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-block: 10px;
+  background-color: rgb(18, 70, 18);
+}
+
+.last-1 img {
+  width: 80%;
+  border-radius: 24px;
+  border: 1px solid orange;
+}
+
+.last-1 h4 {
+  color: orange;
+  font-size: 28px;
+  padding-block: 10px;
+  text-align: center;
+}
+
+.last-1 p {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.last-1:nth-child(2) img {
+  border: 1px solid red;
+}
+
+.last-1:nth-child(3) img {
+  border: 1px solid yellow;
+}
+.last-1:last-child img {
+  border: 1px solid green;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+button {
+  padding: 12px 24px;
+  background-color: rgb(24, 161, 24);
+  color: white;
+  border-radius: 40px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.menu {
+  width: 10%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ display: none; 
+}
+
+.bar {
+  width: 40px;
+  height: 40px;
+  background-color: green;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* responsive */
+
+@media (max-width: 768px) {
+  .main-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .navbar {
+    width: 100%;
+    height: 20%;
+    padding-block: 20px;
+    justify-content: space-between;
+  }
+
+  .logo {
+    width: 40%;
+  }
+
+  .logo img {
+    width: 80%;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .menu {
+    display: inline;
+  }
+
+  .content-box {
+    width: 100%;
+    height: auto;
+  }
+
+  .content {
+    width: 100%;
+    height: auto;
+  }
+
+  .content p {
+    font-size: 16px;
+    margin-top: 60px;
+  }
+
+  .content h1 {
+    font-size: 40px;
+  }
+
+  .content h1 br {
+    display: none;
+  }
+  .content a {
+    color: white;
+    font-size: 32px;
+  }
+  .content button {
+    width: 40%;
+    font-size: 16px;
+  }
+  .content h2 {
+    font-size: 16px;
+  }
+
+  .content h6 {
+    font-size: 30px;
+  }
+
+  .content span {
+    font-size: 16px;
+    padding-inline: 100px;
+  }
+  .content span br {
+    display: none;
+  }
+
+  .card {
+    display: none;
+  }
+
+  .card-box {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .card-box1 h4 br{
+   display: none;
+
+  }
+
+
+  .middle-card {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .last-card {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    button:hover {
+      background-color: orange;
+    }
+  }
+}
